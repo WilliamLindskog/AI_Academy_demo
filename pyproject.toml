@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-academy"
+version = "0.1.0"
+description = "Mainly federated learning in notebook for showcasing."
+authors = ["WilliamLindskog <williamlindskog@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ai_academy"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
